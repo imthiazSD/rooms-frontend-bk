@@ -1,0 +1,32 @@
+.room-page {
+  text-align: center;
+}
+
+.users-list {
+  list-style: none;
+  padding: 0;
+  margin: 40px auto 0 auto;
+  max-width: 500px;
+  height: 600px;
+  overflow-y: scroll;
+  width: 100%;
+}
+
+.action-btn {
+  margin-left: 10px;
+  border: none;
+  padding: 20px;
+  font-weight: bold;
+  background-color: rgb(206, 40, 40);
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.action-btn.enabled {
+  background-color: rgb(34, 94, 215);
+}
+
+.action-btn.disabled {
+  background-color: rgb(38, 198, 54);
+}
